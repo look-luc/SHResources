@@ -42,10 +42,6 @@
     margin: 5px;
 }
 
-.checkboxContainer{
-    border-radius: 8px;
-}
-
 .result-cont{
     flex-direction: column;
     margin: 30px auto;

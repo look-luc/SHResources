@@ -13,15 +13,18 @@
             </h1>
         </header>
         <main>
+            <script src="./index.js"></script>
             <div class="wrapper">
                 <div class="search_bar">
                     <input type="text" id="searchInput" placeholder="Search resources..." />
                     <button id="searchButton" onclick="">Search</button>
                 </div>
-                <div class="container">
+                <div class="container" id="container">
                     filters:
-                    <fieldset class="checkboxContainer"></fieldset>
                 </div>
+                <input type="text" id="newCheckboxLabel" placeholder="Enter checkbox label">
+                <button class="add" onclick="addCheckbox()">Add</button>
+                <button class="remove" onclick="removeCheckbox()">Remove</button>
             </div>
             <div class="result-cont">
                 <h3 class="result">Results:</h3>
