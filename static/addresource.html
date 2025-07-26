@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Add Resources</title>
+    <link rel="stylesheet" href="addresource.css">
+</head>
+<body>
+    <header class="Resources">
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a class="active" href="addresource.html">Add Resources</a>
+          </div>
+        <h1>
+            Add Resources
+        </h1>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="name">
+                Name:
+                <input type="text" placeholder="name of resource">
+            </div>
+            <div class="container">
+                Filters:
+                <div id="container"></div>
+                <script src="index.js"></script>
+            </div>
+        </div>
+        <div class="add-cont" id="showMessageBtn">
+            <button class="add" onclick="">Add</button>
+        </div>
+        <div id="messageContainer">
+            <p>Resource added</p>
+            <button id="hideMessageBtn">Close Message</button>
+        </div>
+        <script src="addresource.js"></script>
+    </main>
+</body>
+</html>
