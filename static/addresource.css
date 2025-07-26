@@ -7,7 +7,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     min-height: 50px;
     overflow: hidden;
-    width: 15%;
+    width: fit-content;
     align-items:flex-end;
   }
   
@@ -22,7 +22,7 @@
 }
 
 .topnav a:hover {
-    background-color: antiquewhite;
+    background-color: #fefefe;
     color: black;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .add:hover{
-    background-color: #ffffff;
+    background-color: #fefefe;
     transform: translateY(-2px); /* Slightly move up */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
 }
