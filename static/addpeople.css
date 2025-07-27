@@ -1,0 +1,88 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Resources{
+    text-align: center;
+}
+
+.topnav {
+    background-color: #e9e9e9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    min-height: 50px;
+    overflow: hidden;
+    width: fit-content;
+    align-items:flex-end;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #fefefe;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.input_name{
+    display: flex;
+    margin-right: 15px;
+}
+
+.input_email{
+    display: flex;
+    margin-left: 15px;
+}
+
+.input_name, .input_email{
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background-color: #e9e9e9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    min-height: 50px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button_cont{
+    padding: 20px auto;
+    margin-left: 30px;
+}
+
+.submit_button{
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background-color: #e9e9e9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    min-height: 50px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.submit_button:hover{
+    background-color: #fefefe;
+    color: black;
+}

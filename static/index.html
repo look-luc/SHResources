@@ -8,26 +8,29 @@
     </head>
     <body>
         <header class="Resources">
+            <div class="topnav">
+                <a class="active" href="index.html">Home</a>
+                <a href="addresource.html">Add Resource</a>
+                <a href="addpeople.html">Add/Remove Access</a>
+              </div>
             <h1>
                 Sean's House Resources
             </h1>
         </header>
         <main>
+            <script src="./index.js"></script>
             <div class="wrapper">
                 <div class="search_bar">
                     <input type="text" id="searchInput" placeholder="Search resources..." />
                     <button id="searchButton" onclick="">Search</button>
                 </div>
                 <div class="container">
-                    filters:
-                    <fieldset class="checkboxContainer"></fieldset>
+                    Filter:
+                    <div id="container"></div>
                 </div>
-            </div>
-            <div class="result-cont">
-                <h3 class="result">Results:</h3>
-                <p class="items">
-                    test
-                </p>
+                <input type="text" id="newCheckboxLabel" placeholder="Enter checkbox label">
+                <button class="add" onclick="addCheckbox()">Add</button>
+                <button class="remove" onclick="removeLastCheckbox()">Undo</button>
             </div>
         </main>
     </body>
