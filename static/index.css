@@ -42,28 +42,6 @@
     justify-content: center;
 }
 
-.result-cont{
-    flex-direction: column;
-    margin: 30px auto;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    background-color: #e9e9e9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    min-height: 50px;
-    width: fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.result{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-
 .items{
     font-weight: normal;
     text-align: left;
@@ -100,11 +78,4 @@
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
-}
-
-#checkboxesContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 10px;
 }
