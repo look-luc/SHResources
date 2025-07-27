@@ -18,19 +18,26 @@
     </header>
     <main>
         <div class="wrapper">
-            <div class="name">
-                Name:
-                <input type="text" placeholder="name of resource">
-            </div>
-            <div class="container">
-                Filters:
-                <div id="container"></div>
-                <script src="index.js"></script>
-            </div>
+            <form id="dataForm" class="container">
+                <label for="type">Type:</label><br>
+                <input type="text" id="type" name="type" placeholder="what type of resource"><br>
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="what's the name"><br>
+
+                <label for="location">Location:</label><br>
+                <input type="text" id="location" name="location" placeholder="where is the resoource"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="example@email.com"><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="+1(123) 456-7890"><br><br>
+
+                <button type="button" class="add" id="showMessageBtn">Submit</button>
+            </form>
         </div>
-        <div class="add-cont" id="showMessageBtn">
-            <button class="add" onclick="">Add</button>
-        </div>
+
         <div id="messageContainer">
             <p>Resource added</p>
             <button id="hideMessageBtn">Close Message</button>
